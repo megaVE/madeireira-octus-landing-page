@@ -785,8 +785,8 @@ video {
   background-color: rgb(249 115 22 / 0.9);
 }
 
-.bg-\[url\(\/img\/hero\.png\)\] {
-  background-image: url(/img/hero.png);
+.bg-\[url\(img\/hero\.png\)\] {
+  background-image: url(img/hero.png);
 }
 
 .bg-fixed {
