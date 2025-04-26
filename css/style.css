@@ -785,6 +785,10 @@ video {
   background-color: rgb(249 115 22 / 0.9);
 }
 
+.bg-hero {
+  background-image: url('../img/hero.png');
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -951,10 +955,6 @@ video {
 
 .text-shadow-md {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-.hero-bg {
-  background-image: url("/img/hero.png");
 }
 
 .white-filter {

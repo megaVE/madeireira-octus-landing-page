@@ -6,6 +6,9 @@ module.exports = {
 			fontFamily: {
 				sans: ["Inter", "sans-serif"],
 			},
+			backgroundImage: () => ({
+				hero: "url('../img/hero.png')",
+			}),
 		},
 	},
 	plugins: [],
