@@ -7,7 +7,7 @@ module.exports = {
 				sans: ["Inter", "sans-serif"],
 			},
 			backgroundImage: () => ({
-				hero: "url('../img/hero.png')",
+				hero: "url('/img/hero.png')",
 			}),
 		},
 	},
