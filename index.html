@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Madeireira Octus" />
+    <meta
+      property="og:description"
+      content="Site Oficial da Madeireira Octus. Monte Santo de Minas - MG"
+    />
+    <meta property="og:image" content="img/opengraph-image.png" />
+    <meta property="og:url" content="https://madeireiraoctus.store" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Madeireira Octus" />
+    <meta
+      name="twitter:description"
+      content="Site Oficial da Madeireira Octus. Monte Santo de Minas - MG"
+    />
+    <meta name="twitter:image" content="img/twitter-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+
+    <title>Madeireira Octus</title>
+  </head>
+  <body class="antialiased bg-[url(/img/hero.png)] bg-fixed">
+    <header
+      class="w-full sticky z-50 top-0 md:flex items-center bg-orange-500/90 px-8 hidden"
+    >
+      <div class="flex justify-center items-center w-full md:w-auto">
+        <img class="size-20 white-filter" src="img/logo.png" alt="Logo" />
+      </div>
+      <nav class="flex-auto hidden md:block">
+        <ul
+          class="flex flex-col md:flex-row text-gray-100 font-bold justify-end gap-6"
+        >
+          <li class="hover:underline">
+            <a href="#mission">Missão</a>
+          </li>
+          <li class="hover:underline">
+            <a href="#location">Localização</a>
+          </li>
+          <li class="hover:underline">
+            <a href="#products">Produtos</a>
+          </li>
+          <li class="hover:underline">
+            <a href="#social">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="w-full">
+      <section
+        id="hero"
+        class="w-full h-[calc(100vh-12rem)] md:h-screen flex flex-col justify-center items-center text-gray-100 space-y-4 uppercase backdrop-blur-sm"
+      >
+        <img
+          src="img/logo.svg"
+          class="white-filter"
+          alt="Madeireira Octus Logo"
+        />
+        <h1 class="text-3xl md:text-7xl tracking-widest text-shadow-md">
+          Madeireira Octus
+        </h1>
+        <small class="text-lg md:text-xl text-shadow-sm tracking-wide"
+          >Construindo seu futuro</small
+        >
+      </section>
+      <section id="mission" class="bg-gray-100/90">
+        <div class="w-full py-2 bg-orange-500/80 text-gray-100">
+          <h2 class="font-bold text-3xl pl-2 flex items-center gap-2">
+            <div
+              class="flex justify-center items-center bg-blue-900 rounded-[50%] size-8"
+            >
+              <i class="bi bi-tree-fill text-gray-100 text-sm"></i>
+            </div>
+            <span>Quem Somos?</span>
+          </h2>
+        </div>
+        <div class="p-4 space-y-2">
+          <article
+            class="border border-black px-2 py-4 md:my-0 rounded-md space-y-8 text-justify shadow-sm"
+          >
+            <p>
+              <span class="w-4 inline-block"></span>A <b>Madeireira Octus</b> é
+              referência em qualidade e confiança em Monte Santo de Minas e toda
+              a região. Com anos de experiência no mercado, oferecemos uma ampla
+              variedade de madeiras selecionadas para construções, reformas e
+              projetos especiais. Nosso compromisso é fornecer produtos de
+              excelência, atendimento personalizado e soluções que atendam às
+              necessidades de nossos clientes, sempre respeitando a natureza e
+              priorizando práticas sustentáveis.
+            </p>
+            <p>
+              <span class="w-4 inline-block"></span>Localizada em
+              <b>Monte Santo de Minas - MG</b>, a
+              <b>Madeireira Octus</b> realiza entregas ágeis para toda a região,
+              garantindo que sua obra nunca pare. Trabalhamos com madeiras,
+              forros, eucalipto tratado, portas, portais, mantas térmicas, e
+              muito mais; garantindo opções versáteis para todo tipo de demanda.
+              Seja para grandes empreendimentos ou pequenos projetos, somos o
+              parceiro ideal para transformar suas ideias em realidade. Conte
+              com quem entende de madeira: conte com a <b>Madeireira Octus</b>!
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="location" class="bg-gray-100/90">
+        <div class="w-full py-2 bg-orange-500/80 text-gray-100">
+          <h2 class="font-bold text-3xl pl-2 flex items-center gap-2">
+            <div
+              class="flex justify-center items-center bg-blue-900 rounded-[50%] size-8"
+            >
+              <i class="bi bi-cursor-fill text-gray-100 text-sm"></i>
+            </div>
+            <span>Onde Atuamos?</span>
+          </h2>
+        </div>
+        <div class="p-4 space-y-2">
+          <article
+            class="border border-black px-2 py-4 md:my-0 rounded-md space-y-8 text-justify shadow-sm"
+          >
+            <p>
+              <span class="w-4 inline-block"></span>Nosso endereço é
+              <a
+                class="text-blue-900"
+                href="https://maps.app.goo.gl/kZ7HtQV76cZR45u9A"
+                ><strong
+                  >Av. Vital Paulino da Costa, 1300-1646 - Centro, Monte Santo
+                  de Minas - MG, 37968-000</strong
+                ></a
+              >, próximos ao Parque Municipal Mauro Baldo para a sua comodidade.
+            </p>
+            <p>
+              <span class="w-4 inline-block"></span>Estaremos muito satisfeitos
+              em recebê-los presecialmente para Consultas e Orçamentos, mas
+              atuamos também com entregas para toda a região.
+              <a href="#social" class="text-blue-900"
+                >Entre em contato conosco diretamente</a
+              >
+              para saber mais sobre nossos valores de frete.
+            </p>
+          </article>
+          <div class="flex flex-col md:flex-row items-center md:items-start">
+            <div
+              class="md:w-1/3 flex flex-col justify-center items-center space-y-8 md:mt-4"
+            >
+              <table
+                class="w-full md:w-auto bg-gray-100/50 border border-black text-center shadow-lg"
+              >
+                <tr class="bg-orange-500 text-gray-100 border-b border-black">
+                  <th class="border-r border-black px-1 py-2">Dia da Semana</th>
+                  <th>Horário</th>
+                </tr>
+                <tr class="border-b border-black/60">
+                  <td class="border-r border-black px-1 py-2">Segunda Feira</td>
+                  <td class="px-1 py-2">07:00 - 16:00</td>
+                </tr>
+                <tr class="border-b border-black/60">
+                  <td class="border-r border-black px-1 py-2">Terça Feira</td>
+                  <td class="px-1 py-2">07:00 - 16:00</td>
+                </tr>
+                <tr class="border-b border-black/60">
+                  <td class="border-r border-black px-1 py-2">Quarta Feira</td>
+                  <td class="px-1 py-2">07:00 - 16:00</td>
+                </tr>
+                <tr class="border-b border-black/60">
+                  <td class="border-r border-black px-1 py-2">Quinta Feira</td>
+                  <td class="px-1 py-2">07:00 - 16:00</td>
+                </tr>
+                <tr class="border-b border-black/60">
+                  <td class="border-r border-black px-1 py-2">Sexta Feira</td>
+                  <td class="px-1 py-2">07:00 - 16:00</td>
+                </tr>
+                <tr class="border-b border-black/60">
+                  <td class="border-r border-black px-1 py-2">Sábado</td>
+                  <td class="px-1 py-2">07:00 - 11:00</td>
+                </tr>
+                <tr>
+                  <td class="border-r border-black px-1 py-2">Domingo</td>
+                  <td class="px-1 py-2">Fechado</td>
+                </tr>
+              </table>
+              <div class="md:w-5/6">
+                <p id="is-open" class="text-green-900 text-center hidden">
+                  Estamos abertos, <b>venha nos visitar</b>!
+                </p>
+                <p id="is-closed" class="text-red-900 text-center hidden">
+                  Já fechamos por hoje, mas você pode
+                  <a href="#social" class="font-bold">entrar em contato</a>
+                  conosco e responderemos assim que possível!
+                </p>
+              </div>
+            </div>
+            <div class="flex-1 pb-[50%] relative mx-auto hidden md:block">
+              <iframe
+                class="size-full left-0 top-0 absolute rounded-md"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.14095313537!2d-46.98513272387508!3d-21.18655887866665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b7a7fe60c9d811%3A0x26ef57547627ea40!2sMadeireira%20Octus!5e0!3m2!1spt-BR!2sbr!4v1745559483192!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="products" class="bg-gray-100/90">
+        <div class="w-full py-2 bg-orange-500/80 text-gray-100">
+          <h2 class="font-bold text-3xl pl-2 flex items-center gap-2">
+            <div
+              class="flex justify-center items-center bg-blue-900 rounded-[50%] size-8"
+            >
+              <i class="bi bi-hammer text-gray-100 text-sm"></i>
+            </div>
+            <span>Peças Disponíveis</span>
+          </h2>
+        </div>
+        <div class="p-4 space-y-2">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div
+              class="border border-black bg-orange-100/20 rounded-md p-2 pb-4 shadow-md md:w-1/3"
+            >
+              <h3 class="font-bold text-xl text-center mb-2">
+                Tábuas de Pinus Tratado
+              </h3>
+              <figure>
+                <div class="overflow-hidden rounded-md">
+                  <img
+                    class="max-w-full cursor-pointer hover:scale-125 duration-200"
+                    src="img/card-image-1.png"
+                    alt="Tábuas de Pinus Tratado"
+                  />
+                </div>
+                <figcaption class="text-center px-2 my-2 italic">
+                  Resistência, leveza e ótimo custo-benefício. Ideal para
+                  construções e projetos de marcenaria.
+                </figcaption>
+              </figure>
+              <div class="flex justify-center md:justify-end items-center">
+                <button
+                  class="inline-block py-1 px-2 mt-2 border border-blue-900 shadow-sm rounded-sm text-blue-900 uppercase cursor-pointer hover:bg-blue-900 hover:text-gray-100 duration-200"
+                  type="button"
+                >
+                  Ver Mais
+                </button>
+              </div>
+            </div>
+            <div
+              class="border border-black bg-orange-100/20 rounded-md p-2 pb-4 shadow-md md:w-1/3"
+            >
+              <h3 class="font-bold text-xl text-center mb-2">
+                Vigas de Madeira de Lei
+              </h3>
+              <figure>
+                <div class="overflow-hidden rounded-md">
+                  <img
+                    class="max-w-full rounded-md cursor-pointer hover:scale-125 duration-200"
+                    src="img/card-image-2.png"
+                    alt="Vigas de Madeira de Lei"
+                  />
+                </div>
+                <figcaption class="text-center px-2 my-2 italic">
+                  Alta durabilidade e suporte estrutural para obras exigentes.
+                  Qualidade garantida e madeira certificada.
+                </figcaption>
+              </figure>
+              <div class="flex justify-center md:justify-end items-center">
+                <button
+                  class="inline-block py-1 px-2 mt-2 border border-blue-900 shadow-sm rounded-sm text-blue-900 uppercase cursor-pointer hover:bg-blue-900 hover:text-gray-100 duration-200"
+                  type="button"
+                >
+                  Ver Mais
+                </button>
+              </div>
+            </div>
+            <div
+              class="border border-black bg-orange-100/20 rounded-md p-2 pb-4 shadow-md md:w-1/3"
+            >
+              <h3 class="font-bold text-xl text-center mb-2">
+                MDF Cru e Revestido
+              </h3>
+              <figure>
+                <div class="overflow-hidden rounded-md">
+                  <img
+                    class="max-w-full rounded-md cursor-pointer hover:scale-125 duration-200"
+                    src="img/card-image-3.png"
+                    alt="MDF Cru e Revestido"
+                  />
+                </div>
+                <figcaption class="text-center px-2 my-2 italic">
+                  Versatilidade para móveis e interiores. Disponível em diversas
+                  espessuras e acabamentos.
+                </figcaption>
+              </figure>
+              <div class="flex justify-center md:justify-end items-center">
+                <button
+                  class="inline-block py-1 px-2 mt-2 border border-blue-900 shadow-sm rounded-sm text-blue-900 uppercase cursor-pointer hover:bg-blue-900 hover:text-gray-100 duration-200"
+                  type="button"
+                >
+                  Ver Mais
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="social" class="bg-gray-100/90">
+        <div class="w-full py-2 bg-orange-500/80 text-gray-100">
+          <h2 class="font-bold text-3xl pl-2 flex items-center gap-2">
+            <div
+              class="flex justify-center items-center bg-blue-900 rounded-[50%] size-8"
+            >
+              <i class="bi bi-people-fill text-gray-100 text-sm"></i>
+            </div>
+            <span>Contato e Redes Sociais</span>
+          </h2>
+        </div>
+        <div class="p-4 space-y-2">
+          <article
+            class="border border-black px-2 py-4 md:my-0 rounded-md space-y-8 text-justify shadow-sm"
+          >
+            <p>
+              <span class="w-4 inline-block"></span>
+              Siga-nos em nossas redes sociais para acompanhar nossas novidades
+              em primeira mão!
+            </p>
+          </article>
+          <ul class="flex flex-col md:flex-row items-center gap-4 py-4 md:mx-4">
+            <li class="font-bold">
+              <a href="tel:3535911019">
+                <i class="bi bi-telephone text-orange-900"></i>
+                <span>Telefone Fixo:</span>
+                <span class="text-blue-900">(35)3591 - 1019</span>
+              </a>
+            </li>
+            <li class="font-bold">
+              <a href="https://wa.me/553591314730">
+                <i class="bi bi-whatsapp text-green-900"></i>
+                <span>Whatsapp:</span>
+                <span class="text-blue-900">+55 (35) 9131-4730</span>
+              </a>
+            </li>
+            <!-- <li>
+            <a href="#">
+              <i class="bi bi-instagram text-pink-900"></i>
+              <span>Instagram</span>
+              <span class="text-blue-900">@madeireiraoctus</span>
+            </a>
+          </li> -->
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="w-full">
+      <div
+        class="border-t border-black bg-orange-100/90 w-full text-center py-4"
+      >
+        &copy;<span class="year-container"></span> - Madeireira Octus
+      </div>
+    </footer>
+  </body>
+</html>
