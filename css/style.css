@@ -786,7 +786,7 @@ video {
 }
 
 .bg-hero {
-  background-image: url('img/hero.png');
+  background-image: url('../img/hero.png');
 }
 
 .bg-fixed {
